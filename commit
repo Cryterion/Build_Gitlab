@@ -1,0 +1,9 @@
+#!/bin/bash
+#clean backup files
+rm *.*~
+rm lib/*.*~
+
+#add, commit and push
+git add .
+git commit
+git push
